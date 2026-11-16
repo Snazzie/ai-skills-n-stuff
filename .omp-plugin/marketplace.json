@@ -1,5 +1,5 @@
 {
-  "name": "ai-skills-n-stuff",
+  "name": "snazzie-ai-skills-n-stuff",
   "owner": {
     "name": "Snazzie"
   },
@@ -8,7 +8,7 @@
   },
   "plugins": [
     {
-      "name": "omp-backup",
+      "name": "snazzie-omp-backup",
       "description": "Back up, list, and restore OMP rules and skills",
       "source": "./Skills/OMP"
     }

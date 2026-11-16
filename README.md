@@ -4,7 +4,7 @@ A collection of AI skills and related tools.
 
 ## OMP backup skills
 
-The `omp-backup` plugin provides:
+The `snazzie-omp-backup` plugin provides:
 
 - `backup-omp`: Back up OMP rules and skills locally, with optional Gist upload.
 - `list-omp-backups`: List local backups and matching GitHub Gists.
@@ -16,14 +16,14 @@ In OMP, run:
 
 ```text
 /marketplace add Snazzie/ai-skills-n-stuff
-/marketplace install omp-backup@ai-skills-n-stuff
+/marketplace install snazzie-omp-backup@snazzie-ai-skills-n-stuff
 ```
 
 Or use the CLI:
 
 ```sh
 omp plugin marketplace add Snazzie/ai-skills-n-stuff
-omp plugin install omp-backup@ai-skills-n-stuff
+omp plugin install snazzie-omp-backup@snazzie-ai-skills-n-stuff
 ```
 
 Restart or reload OMP if needed to discover the skills. Installation defaults to user scope. Use `--scope project` when installing for a single project.
