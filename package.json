@@ -1,0 +1,13 @@
+{
+  "name": "snazzies-ai-skills-n-stuff",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Install Snazzie's OMP backup skills marketplace plugin",
+  "bin": {
+    "snazzies-ai-skills-n-stuff": "bin/install.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "UNLICENSED"
+}
