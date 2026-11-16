@@ -1,0 +1,16 @@
+{
+  "name": "ai-skills-n-stuff",
+  "owner": {
+    "name": "Snazzie"
+  },
+  "metadata": {
+    "description": "AI skills and related tools"
+  },
+  "plugins": [
+    {
+      "name": "omp-backup",
+      "description": "Back up, list, and restore OMP rules and skills",
+      "source": "./Skills/OMP"
+    }
+  ]
+}
