@@ -15,10 +15,10 @@ The `snazzies-omp-backup` plugin provides:
 With Node.js 18 or later and OMP installed, run:
 
 ```sh
-npx --yes github:Snazzie/ai-skills-n-stuff
+npx --yes --allow-git=all github:Snazzie/ai-skills-n-stuff
 ```
 
-This adds the marketplace and installs the plugin in user scope. It downloads and runs the installer from GitHub.
+This adds the marketplace and installs the plugin in user scope. It permits npm to fetch Git dependencies and downloads and runs the installer from GitHub.
 
 In OMP, run:
 
